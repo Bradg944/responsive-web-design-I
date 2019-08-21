@@ -84,7 +84,7 @@ header nav a:hover {
 	text-decoration: none;
 }
 
-header nav a: last-child {
+header nav a:last-child {
   margin-right: 65px;
 }
 
@@ -100,20 +100,26 @@ header .logo {
 	align-items: center;
 }
 
-.cta-text {
+.cta_text {
+	display: flex;
 	background: white;
 	vertical-align: top;
 	padding: 8px 45px;
 	font-size: 20px;
-	border: 2px solid black
+	border: 2px solid black;
 	cursor: pointer;
+	justify-content: center;
 }
 
-.cta .cta-text button:hover {
+.cta .cta_text button:hover {
 	color: white;
 	background: black;
 }
 
+.cta_text .cta_image {
+	display: flex;
+	justify-content: center;
+}
 
 .main-content {
 	border-top: 1px black solid;
@@ -167,6 +173,7 @@ footer {
         display:none;
     }
     header nav {
+		display: flex;
         width: 100%;
         flex-direction: column;
     }
@@ -184,6 +191,7 @@ footer {
     }
 
     .content-top, .content-bottom {
+		display: flex;
         flex-direction: column;
     }
 
@@ -193,12 +201,14 @@ footer {
     }
 
     .cta {
+		display: flex;
         width: 90%;
         flex-direction: column;
         align-items: center;
     }
 
-    .logo {
-        align-items: center;
+    .logoimg {
+		display: flex;
+        align-items: flex-start;
     }
 }
