@@ -217,4 +217,24 @@ footer {
 	.cta_image {
 		display: none;
 	}
+
+	.cta_text {
+		border: none;
+		font-size: 75px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	button {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	header {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		width: 100%;
+	}
 }
