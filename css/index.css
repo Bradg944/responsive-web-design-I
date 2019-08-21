@@ -207,8 +207,14 @@ footer {
         align-items: center;
     }
 
-    .logoimg {
+    .logoimg .img {
 		display: flex;
         align-items: flex-start;
     }
+}
+
+@media (max-width: 800px) {
+	.cta_image {
+		display: none;
+	}
 }
